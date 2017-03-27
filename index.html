@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <title>WebAssembly Spinning Cube Demo</title>
+  </head>
+  <body>
+    <h1>WebAssembly Spinning Cube Demo</h1>
+
+    <p>This demonstrates cross-compilation of unmodified, native C++ with OpenGL to the Web with <a href="http://emscripten.org">Emscripten</a>. The <a href="https://github.com/callahad/spinning-cube/blob/master/Cube.c">original source code</a> is by <a href="http://www.lousodrome.net/opengl/#spinningcube">Julien Guertault</a>. Thanks to Emscripten and WebAssembly, <em>the Web is just another compiler target.</em>
+
+    <p>View <a href="https://github.com/callahad/spinning-cube">the repository</a> on GitHub.
+
+    <p>View the demo in your browser:
+    <ul>
+      <li><a href="./build/webassembly.html">WebAssembly Only</a>
+      <li><a href="./build/asmjs.html">Asm.js Only</a>
+      <li><a href="./build/hybrid.html">WebAssembly with Asm.js Fallback</a>
+    </ul>
+
+    <p>(You can also see the <a href="https://github.com/callahad/spinning-cube/Makefile">Makefile</a> used to compiler the examples above)
+  </body>
+</html>
